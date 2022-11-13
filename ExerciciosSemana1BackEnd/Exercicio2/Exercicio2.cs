@@ -18,15 +18,14 @@
         {
             return y;
         }
-        private void SetX(double _x)
+        protected void SetX(double _x)
         {
             x = _x;
         }
-        private void SetY(double _y)
+        protected void SetY(double _y)
         {
             y = _y;
         }
-
         public void Distancia(Vertice _vertice)
         {
             double distancia = Math.Sqrt((Math.Pow(_vertice.GetX() - x, 2) + Math.Pow(_vertice.GetY() - y, 2)));
@@ -43,7 +42,7 @@
             Console.WriteLine($"O Vertice era ({auxX}, {auxY}) e mudou para ({x}, {y})");
 
         }
-        public void TestaVertice(Vertice _vertice)
+        public virtual void TestaVertice(Vertice _vertice)
         {
             if (_vertice.GetX() == x && _vertice.GetY() == y)
             {
@@ -53,7 +52,7 @@
             Console.WriteLine($"O Vertice ({_vertice.GetX()}, {_vertice.GetY()}) não é igual ao ({x}, {y})");
         }
     }
-    class FazPiramide
+    class FazVertice
     {
         public static void Main(string[] args)
         {

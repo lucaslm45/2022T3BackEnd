@@ -1,16 +1,7 @@
-﻿namespace BackEnd.Semana1.Exercicio1
+﻿using BackEnd.Semana1.Excecoes;
+
+namespace BackEnd.Semana1.Exercicio1
 {
-    [Serializable]
-    class InvalidPiramideValueException : Exception
-    {
-        public InvalidPiramideValueException() { }
-
-        public InvalidPiramideValueException(int N)
-            : base(string.Format($"Valor inválido de N (N = {N})"))
-        {
-
-        }
-    }
     public class Piramide
     {
         int N;
@@ -21,9 +12,9 @@
             {
                 N = _N;
 
-                ValidaN(_N);
+                ValidaN();
             }
-            catch (InvalidPiramideValueException ex)
+            catch (ValorInvalidoPiramideException ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -33,10 +24,10 @@
         {
             return N;
         }
-        private static void ValidaN(int _N)
+        private void ValidaN()
         {
-            if (_N < 1)
-                throw new InvalidPiramideValueException(_N);
+            if (N < 1)
+                throw new ValorInvalidoPiramideException(N);
         }
         public void Desenha()
         {
