@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "ExcecoesLib/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ExcecoesLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ExcecoesLib.dll": {}
+        }
+      },
+      "Exercicio5/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ExcecoesLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Exercicio5.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Exercicio5.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ExcecoesLib/1.0.0": {
+      "type": "project",
+      "path": "../ExcecoesLib/ExcecoesLib.csproj",
+      "msbuildProject": "../ExcecoesLib/ExcecoesLib.csproj"
+    },
+    "Exercicio5/1.0.0": {
+      "type": "project",
+      "path": "../Exercicio5/Exercicio5.csproj",
+      "msbuildProject": "../Exercicio5/Exercicio5.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Exercicio5 >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\lucas\\.nuget\\packages\\": {}
@@ -33,7 +70,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\lucas\\Documents\\GitHub\\2022T3BackEnd\\ExerciciosSemana1BackEnd\\Exercicio5\\Exercicio5.csproj": {
+              "projectPath": "C:\\Users\\lucas\\Documents\\GitHub\\2022T3BackEnd\\ExerciciosSemana1BackEnd\\Exercicio5\\Exercicio5.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
