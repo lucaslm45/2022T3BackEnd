@@ -14,7 +14,7 @@ namespace BackEnd.Semana1.Exercicio1
 
                 ValidaN();
             }
-            catch (ValorInvalidoPiramideException ex)
+            catch (ExcecaoValorInvalidoPiramide ex)
             {
                 Console.WriteLine(ex.Message);
             }
@@ -27,7 +27,7 @@ namespace BackEnd.Semana1.Exercicio1
         private void ValidaN()
         {
             if (N < 1)
-                throw new ValorInvalidoPiramideException(N);
+                throw new ExcecaoValorInvalidoPiramide(N);
         }
         public void Desenha()
         {

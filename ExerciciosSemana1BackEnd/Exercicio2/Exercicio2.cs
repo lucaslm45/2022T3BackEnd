@@ -4,6 +4,8 @@
     {
         double x, y;
 
+        public Vertice() { }
+
         public Vertice(double _x, double _y)
         {
             x = _x;
@@ -26,10 +28,10 @@
         {
             y = _y;
         }
-        public void Distancia(Vertice _vertice)
+        public double Distancia(Vertice _vertice)
         {
-            double distancia = Math.Sqrt((Math.Pow(_vertice.GetX() - x, 2) + Math.Pow(_vertice.GetY() - y, 2)));
-            Console.WriteLine($"A distância euclidiana entre ({_vertice.GetX()}, {_vertice.GetY()}) e ({x}, {y}) é: {distancia:0.00}");
+            return Math.Sqrt((Math.Pow(_vertice.GetX() - x, 2) + Math.Pow(_vertice.GetY() - y, 2)));
+            //Console.WriteLine($"A distância euclidiana entre ({_vertice.GetX()}, {_vertice.GetY()}) e ({x}, {y}) é: {distancia:0.00}");
         }
         public void Move(double _x, double _y)
         {
