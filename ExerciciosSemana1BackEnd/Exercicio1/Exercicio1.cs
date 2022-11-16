@@ -10,9 +10,8 @@ namespace BackEnd.Semana1.Exercicio1
         {
             try
             {
+                ValidaN(_N);
                 N = _N;
-
-                ValidaN();
             }
             catch (ExcecaoValorInvalidoPiramide ex)
             {
@@ -24,26 +23,33 @@ namespace BackEnd.Semana1.Exercicio1
         {
             return N;
         }
-        private void ValidaN()
+        private void ValidaN(int _N)
         {
-            if (N < 1)
-                throw new ExcecaoValorInvalidoPiramide(N);
+            if (_N < 1)
+                throw new ExcecaoValorInvalidoPiramide(_N);
         }
         public void Desenha()
         {
-            int[] values = new int[N - 1];
-
-            //for(int i = 0; i <)
-
+            //Refs: https://www.c-sharpcorner.com/blogs/creating-pyramid-in-c-sharp1
+            int espacos, numero;
+            for (int i = 1; i <= N; i++) // Número de camadas da piramide
+            {
+                for (espacos = 1; espacos <= (N - i); espacos++) // Desenha Espacos
+                    Console.Write(" ");
+                for (numero = 1; numero <= i; numero++) //Incrementa o valor
+                    Console.Write(numero);
+                for (numero = (i - 1); numero >= 1; numero--) //Decrementa o valor
+                    Console.Write(numero);
+                Console.WriteLine();
+            }
         }
-
     }
-    class FazPiramide
+    public class FazPiramide
     {
         public static void Main(string[] args)
         {
-            Piramide p = new(0);
-            Console.WriteLine(p.GetN());
+            Piramide p = new(-1);
+            p.Desenha();
         }
     }
 }
