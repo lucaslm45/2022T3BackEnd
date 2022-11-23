@@ -4,30 +4,31 @@ namespace BackEnd.Semana1.Exercicio1
 {
     public class Piramide
     {
-        int N;
+        private int n;
 
+        public int N
+        {
+            get { return n; }
+            set
+            {
+                try
+                {
+                    if (value < 1)
+                        throw new ExcecaoValorInvalidoPiramide(value);
+
+                    n = value;
+                }
+                catch (ExcecaoValorInvalidoPiramide ex)
+                {
+                    Console.WriteLine(ex.Message);
+                }
+            }
+        }
         public Piramide(int _N)
         {
-            try
-            {
-                ValidaN(_N);
-                N = _N;
-            }
-            catch (ExcecaoValorInvalidoPiramide ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
+            N = _N;
         }
 
-        public int GetN()
-        {
-            return N;
-        }
-        private void ValidaN(int _N)
-        {
-            if (_N < 1)
-                throw new ExcecaoValorInvalidoPiramide(_N);
-        }
         public void Desenha()
         {
             //Refs: https://www.c-sharpcorner.com/blogs/creating-pyramid-in-c-sharp1
@@ -48,7 +49,7 @@ namespace BackEnd.Semana1.Exercicio1
     {
         public static void Main(string[] args)
         {
-            Piramide p = new(-1);
+            Piramide p = new(1);
             p.Desenha();
         }
     }
