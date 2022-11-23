@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Curso/1.0.0": {
+        "dependencies": {
+          "Turma": "1.0.0"
+        },
+        "runtime": {
+          "Curso.dll": {}
+        }
+      },
+      "ExcecoesLib/1.0.0": {
+        "runtime": {
+          "ExcecoesLib.dll": {}
+        }
+      },
+      "Turma/1.0.0": {
+        "dependencies": {
+          "ExcecoesLib": "1.0.0"
+        },
+        "runtime": {
+          "Turma.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Curso/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExcecoesLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Turma/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

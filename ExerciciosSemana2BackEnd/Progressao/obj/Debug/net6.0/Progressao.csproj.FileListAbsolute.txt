@@ -1,0 +1,15 @@
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana2BackEnd\Progressao\bin\Debug\net6.0\Progressao.exe
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana2BackEnd\Progressao\bin\Debug\net6.0\Progressao.deps.json
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana2BackEnd\Progressao\bin\Debug\net6.0\Progressao.runtimeconfig.json
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana2BackEnd\Progressao\bin\Debug\net6.0\Progressao.dll
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana2BackEnd\Progressao\bin\Debug\net6.0\Progressao.pdb
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana2BackEnd\Progressao\obj\Debug\net6.0\Progressao.csproj.AssemblyReference.cache
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana2BackEnd\Progressao\obj\Debug\net6.0\Progressao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana2BackEnd\Progressao\obj\Debug\net6.0\Progressao.AssemblyInfoInputs.cache
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana2BackEnd\Progressao\obj\Debug\net6.0\Progressao.AssemblyInfo.cs
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana2BackEnd\Progressao\obj\Debug\net6.0\Progressao.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana2BackEnd\Progressao\obj\Debug\net6.0\Progressao.dll
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana2BackEnd\Progressao\obj\Debug\net6.0\refint\Progressao.dll
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana2BackEnd\Progressao\obj\Debug\net6.0\Progressao.pdb
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana2BackEnd\Progressao\obj\Debug\net6.0\Progressao.genruntimeconfig.cache
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana2BackEnd\Progressao\obj\Debug\net6.0\ref\Progressao.dll
