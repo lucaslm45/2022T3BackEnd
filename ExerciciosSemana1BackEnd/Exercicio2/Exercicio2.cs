@@ -2,56 +2,41 @@
 {
     public class Vertice
     {
-        double x, y;
-
-        public Vertice() { }
+        public double X { get; private set; }
+        public double Y { get; private set; }
 
         public Vertice(double _x, double _y)
         {
-            x = _x;
-            y = _y;
-        }
-        public double GetX()
-        {
-            return x;
-        }
-
-        public double GetY()
-        {
-            return y;
-        }
-        protected void SetX(double _x)
-        {
-            x = _x;
-        }
-        protected void SetY(double _y)
-        {
-            y = _y;
+            X = _x;
+            Y = _y;
         }
         public double Distancia(Vertice _vertice)
         {
-            return Math.Sqrt((Math.Pow(_vertice.GetX() - x, 2) + Math.Pow(_vertice.GetY() - y, 2)));
-            //Console.WriteLine($"A distância euclidiana entre ({_vertice.GetX()}, {_vertice.GetY()}) e ({x}, {y}) é: {distancia:0.00}");
+            return Math.Sqrt((Math.Pow(_vertice.X - X, 2) + Math.Pow(_vertice.Y - Y, 2)));
         }
         public void Move(double _x, double _y)
         {
-            double auxX = x;
-            double auxY = y;
+            double auxX = X;
+            double auxY = Y;
 
-            SetX(_x);
-            SetY(_y);
+            X = _x;
+            Y = _y;
 
-            Console.WriteLine($"O Vertice era ({auxX}, {auxY}) e mudou para ({x}, {y})");
+            Console.WriteLine($"O Vertice era ({auxX}, {auxY}) e mudou para ({X}, {Y})");
 
         }
-        public virtual void TestaVertice(Vertice _vertice)
+        public override bool Equals(object? obj)
         {
-            if (_vertice.GetX() == x && _vertice.GetY() == y)
-            {
-                Console.WriteLine($"O Vertice ({_vertice.GetX()}, {_vertice.GetY()}) é igual ao ({x}, {y})");
-                return;
-            }
-            Console.WriteLine($"O Vertice ({_vertice.GetX()}, {_vertice.GetY()}) não é igual ao ({x}, {y})");
+            return obj != null && GetType() == obj.GetType() && (X == ((Vertice)obj).X) && (Y == ((Vertice)obj).Y);
+            //if (obj == null || GetType() != obj.GetType())
+            //{
+            //    return false;
+            //}
+            //return (X == ((Vertice)obj).X) && (Y == ((Vertice)obj).Y);
+        }
+        public void Imprime()
+        {
+            Console.WriteLine($"this is {X}, {Y}");
         }
     }
     class FazVertice
@@ -61,10 +46,19 @@
             Vertice v1 = new(2.2, 8.1);
             Vertice v2 = new(2.1, 3.2);
             Vertice v3 = new(2.1, 3.2);
+            Vertice v4 = new(2.1, 3.3);
 
-            v1.Distancia(v2);
-            v1.Move(v2.GetX(), v2.GetY());
-            v2.TestaVertice(v3);
+            Console.WriteLine($"v1 is {v1.X}, {v1.Y}");
+            Console.WriteLine($"v2 is {v2.X}, {v2.Y}");
+            Console.WriteLine($"v3 is {v3.X}, {v3.Y}");
+
+            Console.WriteLine("Movendo v2 para v1");
+            v2.Move(v1.X, v1.Y);
+
+            Console.WriteLine($"v2 é igual a v3 = {v2.Equals(v3)}");
+            Console.WriteLine($"v2 é igual a v1 = {v2.Equals(v1)}");
+            Console.WriteLine($"v2 é igual a v1 = {v2.Equals(v4)}");
+
         }
     }
 

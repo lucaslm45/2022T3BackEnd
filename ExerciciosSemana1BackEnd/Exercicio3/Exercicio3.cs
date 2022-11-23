@@ -12,9 +12,24 @@ namespace BackEnd.Semana1.Exercicio3
     }
     public class Triangulo
     {
-        double a, b, c, perimetro, area;
+        private double perimetro, a, b, c, area;
 
-        TrianguloTipo tipo;
+        public double A { get; private set; }
+        public double B { get; private set; }
+        public double C { get; private set; }
+        public double Area
+        {
+            get { return area; }
+            private set
+            {
+                double S = value / 2;
+                area = Math.Sqrt(S * (S - A) * (S - B) * (S - C));
+            }
+        }
+
+        public TrianguloTipo Tipo { get; private set; }
+
+        public double Perimetro { get; private set; }
 
         Vertice[] vertices;
 
@@ -28,16 +43,16 @@ namespace BackEnd.Semana1.Exercicio3
                 {
                     vertices[i] = _vertices[i];
                 }
-                tipo = TrianguloTipo.Nenhum;
+                Tipo = TrianguloTipo.Nenhum;
                 ValidaXYZ(this);
 
-                a = this.vertices[0].Distancia(this.vertices[1]);
-                b = this.vertices[1].Distancia(this.vertices[2]);
-                c = this.vertices[2].Distancia(this.vertices[0]);
+                A = this.vertices[0].Distancia(this.vertices[1]);
+                B = this.vertices[1].Distancia(this.vertices[2]);
+                C = this.vertices[2].Distancia(this.vertices[0]);
 
-                perimetro = Perimetro();
-                area = Area();
-                tipo = FormatoTriangulo();
+                Perimetro = A + B + C;
+                Area = Perimetro;
+                Tipo = FormatoTriangulo();
             }
             catch (ExcecaoValoresInvalidosTriangulo ex)
             {
@@ -65,30 +80,6 @@ namespace BackEnd.Semana1.Exercicio3
                 }
             }
         }
-        public double GetA()
-        {
-            return a;
-        }
-        public double GetB()
-        {
-            return b;
-        }
-        public double GetC()
-        {
-            return c;
-        }
-        public double GetPerimetro()
-        {
-            return perimetro;
-        }
-        public double GetArea()
-        {
-            return area;
-        }
-        public TrianguloTipo GetTipo()
-        {
-            return tipo;
-        }
 
         public void TestaTriangulo(Triangulo _triangulo)
         {
@@ -96,34 +87,21 @@ namespace BackEnd.Semana1.Exercicio3
             double y = _triangulo.vertices[1].Distancia(_triangulo.vertices[2]);
             double z = _triangulo.vertices[2].Distancia(_triangulo.vertices[0]);
 
-            if (x == GetA() && y == GetB() && x == GetC())
+            if (x == A && y == B && x == C)
             {
-                Console.WriteLine($"O Triangulo ({x}, {y}, {z}) é igual ao ({GetA()}, {GetB()}, {GetC()})");
+                Console.WriteLine($"O Triangulo ({x}, {y}, {z}) é igual ao ({A}, {B}, {C})");
                 return;
             }
-            Console.WriteLine($"O Triangulo ({x}, {y}, {z}) não é igual ao ({GetA()}, {GetB()}, {GetC()})");
-        }
-        double Perimetro()
-        {
-            return GetA() + GetB() + GetC();
-        }
-        double Area()
-        {
-            double S = Perimetro() / 2;
-            return Math.Sqrt(S * (S - GetA()) * (S - GetB()) * (S - GetC()));
+            Console.WriteLine($"O Triangulo ({x}, {y}, {z}) não é igual ao ({A}, {B}, {C})");
         }
 
         TrianguloTipo FormatoTriangulo()
         {
-            double x = GetA();
-            double y = GetB();
-            double z = GetC();
-
-            if (x == y && y == z)
+            if (A == B && B == C)
             {
                 return TrianguloTipo.Equilatero;
             }
-            else if (x == y || x == z || y == z)
+            else if (A == B || A == C || B == C)
             {
                 return TrianguloTipo.Isosceles;
             }
@@ -143,7 +121,8 @@ namespace BackEnd.Semana1.Exercicio3
 
             Vertice[] _vertices = new Vertice[] { v1, v2, v3 };
             Triangulo t1 = new(_vertices);
-            Console.WriteLine($"Valor: {t1.GetPerimetro()}");
+            Console.WriteLine($"Valor: {t1.Perimetro}");
+            Console.WriteLine($"Valor: {t1.Area}");
             //Console.WriteLine($"Valor: {t1.GetA()}");
             //Console.WriteLine($"Valor: {t1.GetB()}");
             //Console.WriteLine($"Valor: {t1.GetC()}");
