@@ -1,0 +1,149 @@
+[
+  {
+    "dados": {
+      "Nome": "Pedro de Almeida",
+      "CPF": "29585098008",
+      "Nascimento": "15/02/1996",
+      "RendaMensal": "3584,12",
+      "EstadoCivil": "S",
+      "Dependentes": "0"
+    },
+    "erros": []
+  },
+  {
+    "dados": {
+      "Nome": "Joao",
+      "CPF": "3940178705",
+      "Nascimento": "13/09/1982",
+      "RendaMensal": "1835,27",
+      "EstadoCivil": "S",
+      "Dependentes": "0"
+    },
+    "erros": [
+      {
+        "nome": "Nome deve ter pelo menos 5 caracteres"
+      },
+      {
+        "cpf": "CPF deve ter 11 numeros"
+      }
+    ]
+  },
+  {
+    "dados": {
+      "Nome": "Ana Beatriz",
+      "CPF": "34645846078",
+      "Nascimento": "28/10/2000",
+      "RendaMensal": "2810,25",
+      "EstadoCivil": "S",
+      "Dependentes": "0"
+    },
+    "erros": []
+  },
+  {
+    "dados": {
+      "Nome": "Leticia Andrade",
+      "CPF": "25950526081",
+      "Nascimento": "14/01/1999",
+      "RendaMensal": "4261,39",
+      "EstadoCivil": "C",
+      "Dependentes": "1"
+    },
+    "erros": []
+  },
+  {
+    "dados": {
+      "Nome": "Paula da Silva",
+      "CPF": "80519936086",
+      "Nascimento": "29/02/1980",
+      "RendaMensal": "3578,10",
+      "EstadoCivil": "S",
+      "Dependentes": "1"
+    },
+    "erros": []
+  },
+  {
+    "dados": {
+      "Nome": "Andre Rocha",
+      "CPF": "69024641039",
+      "Nascimento": "07/05/1984",
+      "RendaMensal": "4110,39",
+      "EstadoCivil": "S",
+      "Dependentes": "0"
+    },
+    "erros": []
+  },
+  {
+    "dados": {
+      "Nome": "Mateus Pereira",
+      "CPF": "61461811023",
+      "Nascimento": "12/05/1978",
+      "RendaMensal": "-1",
+      "EstadoCivil": "V",
+      "Dependentes": "2"
+    },
+    "erros": []
+  },
+  {
+    "dados": {
+      "Nome": "Fernanda Pinheiro",
+      "CPF": "21386403024",
+      "Nascimento": "04/12/1972",
+      "RendaMensal": "5850,27",
+      "EstadoCivil": "C",
+      "Dependentes": "1"
+    },
+    "erros": []
+  },
+  {
+    "dados": {
+      "Nome": "Vania Castro",
+      "CPF": "54303344050",
+      "Nascimento": "09/11/1965",
+      "RendaMensal": "6852,27",
+      "EstadoCivil": "X",
+      "Dependentes": "3"
+    },
+    "erros": [
+      {
+        "estado_civil": "Estado Civil invalido"
+      }
+    ]
+  },
+  {
+    "dados": {
+      "Nome": "Joice Medeiros",
+      "CPF": "60904708055",
+      "Nascimento": "21/07/1991",
+      "RendaMensal": "10254,48",
+      "EstadoCivil": "C",
+      "Dependentes": "2"
+    },
+    "erros": []
+  },
+  {
+    "dados": {
+      "Nome": "Carlos Roberto",
+      "CPF": "96154144091",
+      "Nascimento": "14/09/1966",
+      "RendaMensal": "8387,92",
+      "EstadoCivil": "C",
+      "Dependentes": "3"
+    },
+    "erros": []
+  },
+  {
+    "dados": {
+      "Nome": "Wagner Peixoto",
+      "CPF": "91490575022",
+      "Nascimento": "22/02/1968",
+      "RendaMensal": "11387,37",
+      "EstadoCivil": "D",
+      "Dependentes": "-1"
+    },
+    "erros": [
+      {
+        "dependentes": "Numero de Dependentes invalido"
+      }
+    ]
+  }
+]

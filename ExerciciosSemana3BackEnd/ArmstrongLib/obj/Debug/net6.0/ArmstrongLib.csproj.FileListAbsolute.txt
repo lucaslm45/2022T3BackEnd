@@ -1,0 +1,12 @@
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\ArmstrongLib\bin\Debug\net6.0\ArmstrongLib.deps.json
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\ArmstrongLib\bin\Debug\net6.0\ArmstrongLib.dll
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\ArmstrongLib\bin\Debug\net6.0\ArmstrongLib.pdb
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\ArmstrongLib\obj\Debug\net6.0\ArmstrongLib.csproj.AssemblyReference.cache
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\ArmstrongLib\obj\Debug\net6.0\ArmstrongLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\ArmstrongLib\obj\Debug\net6.0\ArmstrongLib.AssemblyInfoInputs.cache
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\ArmstrongLib\obj\Debug\net6.0\ArmstrongLib.AssemblyInfo.cs
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\ArmstrongLib\obj\Debug\net6.0\ArmstrongLib.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\ArmstrongLib\obj\Debug\net6.0\ArmstrongLib.dll
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\ArmstrongLib\obj\Debug\net6.0\refint\ArmstrongLib.dll
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\ArmstrongLib\obj\Debug\net6.0\ArmstrongLib.pdb
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\ArmstrongLib\obj\Debug\net6.0\ref\ArmstrongLib.dll

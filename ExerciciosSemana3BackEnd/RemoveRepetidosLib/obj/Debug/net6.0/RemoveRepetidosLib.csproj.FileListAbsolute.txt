@@ -1,0 +1,12 @@
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidosLib\bin\Debug\net6.0\RemoveRepetidosLib.deps.json
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidosLib\bin\Debug\net6.0\RemoveRepetidosLib.dll
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidosLib\bin\Debug\net6.0\RemoveRepetidosLib.pdb
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidosLib\obj\Debug\net6.0\RemoveRepetidosLib.csproj.AssemblyReference.cache
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidosLib\obj\Debug\net6.0\RemoveRepetidosLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidosLib\obj\Debug\net6.0\RemoveRepetidosLib.AssemblyInfoInputs.cache
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidosLib\obj\Debug\net6.0\RemoveRepetidosLib.AssemblyInfo.cs
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidosLib\obj\Debug\net6.0\RemoveRepetidosLib.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidosLib\obj\Debug\net6.0\RemoveRepetidosLib.dll
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidosLib\obj\Debug\net6.0\refint\RemoveRepetidosLib.dll
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidosLib\obj\Debug\net6.0\RemoveRepetidosLib.pdb
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidosLib\obj\Debug\net6.0\ref\RemoveRepetidosLib.dll

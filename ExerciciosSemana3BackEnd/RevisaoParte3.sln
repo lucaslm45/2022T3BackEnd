@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33103.184
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientesJson", "ClientesJson\ClientesJson.csproj", "{3698BFEB-F292-49E9-B6AB-62B77E6C222E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExcecoesLib", "ExcecoesLib\ExcecoesLib.csproj", "{693CE905-1C21-48B5-9A25-B5E83CB788B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IndiceRemissivo", "IndiceRemissivo\IndiceRemissivo.csproj", "{95711415-0C30-423F-81C2-58A4A1E5093B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestaPalavras", "TestaPalavras\TestaPalavras.csproj", "{075E8C48-F22E-41F5-B42B-B446E19A9CF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArmstrongLib", "ArmstrongLib\ArmstrongLib.csproj", "{33B8ACB6-68E0-4557-A634-6070EBFBCD42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestaSequenciaArmstrong", "TestaSequenciaArmstrong\TestaSequenciaArmstrong.csproj", "{9B1351BE-4BAB-48E1-ABFA-FE0D27EE8809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveRepetidos", "RemoveRepetidos\RemoveRepetidos.csproj", "{7095D939-B3F0-46B3-A28A-467FB7ADCDFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3698BFEB-F292-49E9-B6AB-62B77E6C222E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3698BFEB-F292-49E9-B6AB-62B77E6C222E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3698BFEB-F292-49E9-B6AB-62B77E6C222E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3698BFEB-F292-49E9-B6AB-62B77E6C222E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{693CE905-1C21-48B5-9A25-B5E83CB788B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{693CE905-1C21-48B5-9A25-B5E83CB788B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{693CE905-1C21-48B5-9A25-B5E83CB788B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{693CE905-1C21-48B5-9A25-B5E83CB788B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95711415-0C30-423F-81C2-58A4A1E5093B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95711415-0C30-423F-81C2-58A4A1E5093B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95711415-0C30-423F-81C2-58A4A1E5093B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95711415-0C30-423F-81C2-58A4A1E5093B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{075E8C48-F22E-41F5-B42B-B446E19A9CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{075E8C48-F22E-41F5-B42B-B446E19A9CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{075E8C48-F22E-41F5-B42B-B446E19A9CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{075E8C48-F22E-41F5-B42B-B446E19A9CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33B8ACB6-68E0-4557-A634-6070EBFBCD42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33B8ACB6-68E0-4557-A634-6070EBFBCD42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33B8ACB6-68E0-4557-A634-6070EBFBCD42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33B8ACB6-68E0-4557-A634-6070EBFBCD42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B1351BE-4BAB-48E1-ABFA-FE0D27EE8809}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B1351BE-4BAB-48E1-ABFA-FE0D27EE8809}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B1351BE-4BAB-48E1-ABFA-FE0D27EE8809}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B1351BE-4BAB-48E1-ABFA-FE0D27EE8809}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7095D939-B3F0-46B3-A28A-467FB7ADCDFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7095D939-B3F0-46B3-A28A-467FB7ADCDFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7095D939-B3F0-46B3-A28A-467FB7ADCDFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7095D939-B3F0-46B3-A28A-467FB7ADCDFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67D294D6-956A-420D-8824-F8C1C9691F79}
+	EndGlobalSection
+EndGlobal

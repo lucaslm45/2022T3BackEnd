@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TestaSequenciaArmstrong/1.0.0": {
+        "dependencies": {
+          "ArmstrongLib": "1.0.0"
+        },
+        "runtime": {
+          "TestaSequenciaArmstrong.dll": {}
+        }
+      },
+      "ArmstrongLib/1.0.0": {
+        "runtime": {
+          "ArmstrongLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TestaSequenciaArmstrong/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArmstrongLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,12 @@
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\IndiceRemissivo\bin\Debug\net6.0\IndiceRemissivo.deps.json
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\IndiceRemissivo\bin\Debug\net6.0\IndiceRemissivo.dll
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\IndiceRemissivo\bin\Debug\net6.0\IndiceRemissivo.pdb
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\IndiceRemissivo\obj\Debug\net6.0\IndiceRemissivo.csproj.AssemblyReference.cache
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\IndiceRemissivo\obj\Debug\net6.0\IndiceRemissivo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\IndiceRemissivo\obj\Debug\net6.0\IndiceRemissivo.AssemblyInfoInputs.cache
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\IndiceRemissivo\obj\Debug\net6.0\IndiceRemissivo.AssemblyInfo.cs
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\IndiceRemissivo\obj\Debug\net6.0\IndiceRemissivo.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\IndiceRemissivo\obj\Debug\net6.0\IndiceRemissivo.dll
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\IndiceRemissivo\obj\Debug\net6.0\refint\IndiceRemissivo.dll
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\IndiceRemissivo\obj\Debug\net6.0\IndiceRemissivo.pdb
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\IndiceRemissivo\obj\Debug\net6.0\ref\IndiceRemissivo.dll

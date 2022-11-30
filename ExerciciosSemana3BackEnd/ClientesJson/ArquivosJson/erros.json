@@ -1,0 +1,50 @@
+[ { "dados": {"nome":"Joao", 
+              "cpf":"39401787050",
+              "dt_nascimento":"13/09/1982",
+              "renda_mensal":"1835,27", 
+              "estado_civil":"S",
+              "dependentes":"0"}, 
+    "erros": [ {"nome": "Nome deve ter pelo menos 5 caracteres"} ]
+  },
+  { "dados": {"nome":"Leticia Andrade", 
+              "cpf":"25950526081",
+              "dt_nascimento":"14/01/1999", 
+              "renda_mensal":"4261,39", 
+              "estado_civil":"C",
+              "dependentes":"1"},
+    "erros": [ {"cpf": "CPF invalido"} ]
+  },
+  { "dados": {"nome":"Paula da Silva", 
+              "cpf":"80519936086",
+              "dt_nascimento":"29/02/1981", 
+              "renda_mensal":"3578,10", 
+              "estado_civil":"S",
+              "dependentes":"1"},
+    "erros": [ {"dt_nascimento": "Data de nascimento invalida"} ]
+  },
+  { "dados": {"nome":"Mateus Pereira", 
+              "cpf":"61461811023",
+              "dt_nascimento":"12/05/1978", 
+              "renda_mensal":"-1", 
+              "estado_civil":"V",
+              "dependentes":"2"},
+    "erros": [ {"renda_mensal": "Renda mensal invalida"} ]
+  },
+  { "dados": {"nome":"Vania Castro", 
+              "cpf":"5430334405",
+              "dt_nascimento":"09/11/1965", 
+              "renda_mensal":"6852,27", 
+              "estado_civil":"X",
+              "dependentes":"3"},
+    "erros": [ {"cpf": "CPF invalido"},
+               {"estado_civil": "Estado civil invalido"} ]
+  },
+  { "dados": {"nome":"Wagner Peixoto", 
+              "cpf":"91490575022",
+              "dt_nascimento":"22/02/1968", 
+              "renda_mensal":"11387,37", 
+              "estado_civil":"D",
+              "dependentes":"-1"} 
+    "erros": [ {"dependentes": "Numero de dependentes invalido"} ]
+  }
+]

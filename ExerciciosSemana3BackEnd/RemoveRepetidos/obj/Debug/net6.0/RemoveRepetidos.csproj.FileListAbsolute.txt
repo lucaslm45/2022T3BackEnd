@@ -1,0 +1,15 @@
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidos\bin\Debug\net6.0\RemoveRepetidos.exe
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidos\bin\Debug\net6.0\RemoveRepetidos.deps.json
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidos\bin\Debug\net6.0\RemoveRepetidos.runtimeconfig.json
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidos\bin\Debug\net6.0\RemoveRepetidos.dll
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidos\bin\Debug\net6.0\RemoveRepetidos.pdb
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidos\obj\Debug\net6.0\RemoveRepetidos.csproj.AssemblyReference.cache
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidos\obj\Debug\net6.0\RemoveRepetidos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidos\obj\Debug\net6.0\RemoveRepetidos.AssemblyInfoInputs.cache
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidos\obj\Debug\net6.0\RemoveRepetidos.AssemblyInfo.cs
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidos\obj\Debug\net6.0\RemoveRepetidos.csproj.CoreCompileInputs.cache
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidos\obj\Debug\net6.0\RemoveRepetidos.dll
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidos\obj\Debug\net6.0\refint\RemoveRepetidos.dll
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidos\obj\Debug\net6.0\RemoveRepetidos.pdb
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidos\obj\Debug\net6.0\RemoveRepetidos.genruntimeconfig.cache
+C:\Users\lucas\Documents\GitHub\2022T3BackEnd\ExerciciosSemana3BackEnd\RemoveRepetidos\obj\Debug\net6.0\ref\RemoveRepetidos.dll
